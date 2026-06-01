@@ -1,0 +1,14 @@
+# Ignorer le dossier contenant les images de chats et de chiens
+Cat_Dog_data/
+data/
+
+# Ignorer les fichiers de sauvegarde des modèles PyTorch (lourds)
+*.pt
+*.pth
+checkpoints/
+
+# Ignorer les fichiers de journalisation et caches locaux
+runs/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
