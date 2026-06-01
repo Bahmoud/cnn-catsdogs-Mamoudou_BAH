@@ -1,8 +1,3 @@
-Voici le contenu complet et final de ton fichier **`README.md`** mis à jour avec les vrais chiffres de ton test (`98.04%` d'exactitude et `0.0559` de perte).
-
-Tu n'as plus rien à modifier, tu peux tout copier-coller directement dans ton fichier sur VS Code :
-
-```markdown
 # TP – CNN “from scratch” vs Transfer Learning (Cats vs Dogs)
 
 **Étudiant :** Mamoudou BAH  
