@@ -16,7 +16,7 @@ L'étude met en évidence l'impact de ces approches sur la vitesse de convergenc
 
 ---
 
-## 💻 Configuration de l'Environnement
+## Configuration de l'Environnement
 
 Le projet a été développé et exécuté sur un environnement **macOS (MacBook Pro)** en exploitant l'accélération matérielle de la puce Apple Silicon via le périphérique **MPS** (*Metal Performance Shaders*).
 
@@ -87,7 +87,7 @@ Le meilleur modèle obtenu lors de la phase d'entraînement par transfert est sa
 
 ---
 
-## 📊 Résultats et Analyse Comparative
+## Résultats et Analyse Comparative
 
 ### Tableau Récapitulatif (Métriques finales)
 
@@ -104,7 +104,7 @@ De plus, l'introduction conjointe de la **Batch Normalization** et du **Dropout 
 
 ---
 
-## ⚠️ Limites et Pistes d'Amélioration
+## Limites et Pistes d'Amélioration
 
 * **Limites actuelles :** Le nombre d'époques a été volontairement limité à 5 pour des raisons de ressources et de temps de calcul. Le modèle From Scratch n'a pas atteint son plein potentiel de convergence.
 * **Pistes d'amélioration :** 1. Implémenter un protocole de *Fine-tuning* progressive sur les dernières couches convolutives de ResNet18 (en plus de la couche de classification) pour adapter plus finement l'extraction de caractéristiques aux spécificités des félins et canidés.
